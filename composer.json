@@ -1,0 +1,31 @@
+{
+  "name": "nukacode/front-end-bootstrap",
+  "description": "Helpers and views for a basic bootstrap setup.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stygian",
+      "email": "stygian.warlock.v2@gmail.com"
+    },
+    {
+      "name": "Riddles",
+      "email": "riddles@dev-toolbox.com"
+    }
+  ],
+  "require": {
+      "nukacode/html": "1.*"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "~2.1",
+    "henrikbjorn/phpspec-code-coverage": "~0.2"
+  },
+  "autoload": {
+    "classmap": [
+      "src/views"
+    ],
+    "psr-4": {
+      "NukaCode\\Bootstrap\\": "src/NukaCode/Bootstrap"
+    }
+  },
+  "minimum-stability": "dev"
+}
