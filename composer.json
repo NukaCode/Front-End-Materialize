@@ -1,6 +1,6 @@
 {
-  "name": "nukacode/front-end-bootstrap",
-  "description": "Helpers and views for a basic bootstrap setup.",
+  "name": "nukacode/front-end-materialize",
+  "description": "Helpers and views for a basic materialize setup.",
   "license": "MIT",
   "authors": [
     {
@@ -13,6 +13,8 @@
     }
   ],
   "require": {
+      "laravel/framework": "~5.0",
+      "nukacode/core": "~2.0",
       "nukacode/html": "1.*"
   },
   "require-dev": {
